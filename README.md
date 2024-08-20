@@ -24,7 +24,7 @@ This is a simple inventory tracking app built with Next.js and TypeScript.
 
 ## Deployment
 
-This app is deployed on Vercel. You can view the live app [here](your-vercel-url).
+This app is deployed on Vercel. You can view the live app [here](https://inventory-tracking-app-xi.vercel.app/).
 
 ## Challenges
 

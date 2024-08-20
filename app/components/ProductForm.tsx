@@ -6,7 +6,7 @@ import { Product } from "../types/products";
 import { useProductStore } from "../store/productStore";
 
 interface ProductFormProps {
-  productToEdit?: Product; // Optional prop for editing
+  productToEdit: Product | null; // Optional prop for editing
   onClose?: () => void;   // Optional callback to close the form
 }
 

@@ -29,4 +29,6 @@ This app is deployed on Vercel. You can view the live app [here](https://invento
 ## Challenges
 
 - Handling state management and ensuring TypeScript types were correctly implemented.
-- Implementing a smooth and intuitive UI/UX experience.
+- Implementing a smooth and intuitive UI/UX experience using Chakra UI. (Switching themes)
+- State management using zustand.
+- Validation notification using Chakra notify.

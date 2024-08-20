@@ -7,10 +7,14 @@ interface ProductState {
   updateProduct: (updatedProduct: Product) => void;
   deleteProduct: (id: string) => void;
   adjustStock: (id: string, change: number) => void;
+  searchTerm: string;
+  setSearchTerm: (term: string) => void;
 }
 
 export const useProductStore = create<ProductState>((set) => ({
   products: [],
+  searchTerm: "",
+  setSearchTerm: (term) => set({ searchTerm: term }),
   addProduct: (product) => set((state) => ({ products: [...state.products, product] })),
   updateProduct: (updatedProduct) => set((state) => ({
     products: state.products.map((product) =>
